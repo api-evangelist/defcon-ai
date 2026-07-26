@@ -1,8 +1,26 @@
 aid: defcon-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defcon-ai.png
 name: DEFCON AI
-description: 'DEFCON AI is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'DEFCON AI is a modeling, simulation, and analysis (MS&A) company based
+  in McLean, Virginia, building AI-driven optimization for contested logistics and
+  mobility across defense and commercial operations. Founded in 2022, it develops
+  mission-tailored optimization and intelligent-agent simulation products - including
+  ARTIV (delivered to U.S. Air Force Air Mobility Command) and R-ALIGN for resilient
+  multimodal logistics - that let planners rapidly generate and evaluate mission scenarios
+  in dynamic, disrupted environments. The company was awarded a five-year, $115M prototype
+  agreement supporting U.S. Marine Corps logistics modernization. DEFCON AI publishes
+  no public API or developer platform.'
 url: https://raw.githubusercontent.com/api-evangelist/defcon-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Ml
+- Defense
+- National Security
+- Logistics
+- Modeling And Simulation
+- Optimization
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/defcon-ai-domain-security.yml
 - type: Website
   url: https://www.defconai.com/
+- type: PrivacyPolicy
+  url: https://www.defconai.com/privacy-policy
+- type: Support
+  url: https://www.defconai.com/contact
+- type: Blog
+  url: https://www.defconai.com/news
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
