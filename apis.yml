@@ -33,6 +33,9 @@ description: 'DEFCON AI is a modeling, simulation, and analysis (MS&A) company b
   agreement supporting U.S. Marine Corps logistics modernization. DEFCON AI publishes
   no public API or developer platform.'
 url: https://raw.githubusercontent.com/api-evangelist/defcon-ai/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "DEFCON AI publishes no public API or developer platform."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
